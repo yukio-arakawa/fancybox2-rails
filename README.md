@@ -1,5 +1,7 @@
 fancybox2-rails
 ==============
+[![Build Status](https://travis-ci.org/kyparn/fancybox2-rails.png)](https://travis-ci.org/kyparn/fancybox2-rails)
+
 
 Use [fancybox](http://www.fancyapps.com/fancybox/) with rails 3.1 asset pipeline.
 
