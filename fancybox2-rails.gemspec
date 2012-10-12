@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
   s.version     = Fancybox2::Rails::VERSION
 
   s.add_dependency "railties", ">= 3.1.0"
-  s.add_development_dependency "bundler"
   s.add_development_dependency "rails", "~> 3.1"
   s.add_development_dependency "jquery-rails"
   s.add_development_dependency 'coffee-rails'
