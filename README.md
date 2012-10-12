@@ -12,7 +12,7 @@ First add the following lines to your applications `Gemfile`:
 
 ``` ruby
 gem 'jquery-rails'
-gem 'fancybox2-rails'
+gem 'fancybox2-rails', '~> 0.2.1'
 ```
 
 Then run `bundle install` to update your application's bundle.
@@ -57,5 +57,5 @@ $(document).ready(function() {
 Copyright (c) Chris Mytton
 
 ## License
-
+Please be aware that you'll need to purchase a [license](http://fancyapps.com/fancybox/#license) if you intend to use that fancybox2 for commercial purposes
 [Fancybox 2 license](http://www.fancyapps.com/fancybox/#license)
