@@ -57,5 +57,4 @@ $(document).ready(function() {
 Copyright (c) Chris Mytton
 
 ## License
-Please be aware that you'll need to purchase a [license](http://fancyapps.com/fancybox/#license) if you intend to use that fancybox2 for commercial purposes
-[Fancybox 2 license](http://www.fancyapps.com/fancybox/#license)
+Please be aware that you'll need to purchase a [license](http://fancyapps.com/fancybox/#license) if you intend to use fancybox2 for commercial purposes.
