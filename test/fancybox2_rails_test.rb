@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class FancyboxRailsTest < ActiveSupport::TestCase
+class Fancybox2RailsTest < ActiveSupport::TestCase
   def setup
     @app = Dummy::Application
   end

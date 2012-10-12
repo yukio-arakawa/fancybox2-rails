@@ -4,6 +4,7 @@ require 'rails/all'
 
 Bundler.require
 require "fancybox2-rails"
+require "jquery-rails"
 
 module Dummy
   class Application < Rails::Application

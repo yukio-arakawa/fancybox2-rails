@@ -13,7 +13,12 @@ Gem::Specification.new do |s|
   s.version     = Fancybox2::Rails::VERSION
 
   s.add_dependency "railties", ">= 3.1.0"
-  s.add_development_dependency "bundler", "~> 1.2.1"
-  s.add_development_dependency "rails",   "~> 3.1"
+  s.add_development_dependency "bundler", "~> 1.2.0"
+  s.add_development_dependency "rails", "~> 3.1"
+  s.add_development_dependency "jquery-rails"
+  s.add_development_dependency 'coffee-rails'
+  s.add_development_dependency "sqlite3"
   s.add_development_dependency "nokogiri"
+  s.add_development_dependency "capybara"
+  s.add_development_dependency "capybara-webkit"
 end
