@@ -1,7 +1,5 @@
-fancybox-rails
+fancybox2-rails
 ==============
-
-[![Build Status](http://travis-ci.org/hecticjeff/fancybox-rails.png)](http://travis-ci.org/hecticjeff/fancybox-rails)
 
 Use [fancybox](http://www.fancyapps.com/fancybox/) with rails 3.1 asset pipeline.
 
@@ -14,7 +12,7 @@ First add the following lines to your applications `Gemfile`:
 
 ``` ruby
 gem 'jquery-rails'
-gem 'fancybox-rails'
+gem 'fancybox2-rails'
 ```
 
 Then run `bundle install` to update your application's bundle.
