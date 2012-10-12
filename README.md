@@ -50,11 +50,10 @@ $(document).ready(function() {
 ```
 
 ## More information
+This gem is based on the [original gem](https://github.com/hecticjeff/fancybox-rails) for Fancybox 1.x by Chris Mytton.
 
-* [Contributors](https://github.com/hecticjeff/fancybox-rails/contributors)
 * [DHH's RailsConf 2011 talk on the rails 3.1 asset pipeline](http://www.youtube.com/watch?v=cGdCI2HhfAU)
 
-Copyright (c) Chris Mytton
 
 ## License
 Please be aware that you'll need to purchase a [license](http://fancyapps.com/fancybox/#license) if you intend to use fancybox2 for commercial purposes.
