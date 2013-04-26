@@ -38,7 +38,7 @@ look something like:
  */
 ```
 
-That's it!
+You'll need to restart your Rails server and that's it!
 
 ## Usage
 
