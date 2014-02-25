@@ -1,6 +1,6 @@
 module Fancybox2
   module Rails
-    VERSION = "0.2.6"
-    FANCYBOX_VERSION = "2.1.4"
+    VERSION = "0.2.7"
+    FANCYBOX_VERSION = "2.1.5"
   end
 end
