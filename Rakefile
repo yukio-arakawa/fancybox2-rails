@@ -6,7 +6,6 @@ rescue LoadError
 end
 
 # For checking remote fancybox version.
-require 'nokogiri'
 require 'open-uri'
 require 'json'
 
