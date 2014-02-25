@@ -8,9 +8,10 @@ end
 # For checking remote fancybox version.
 require 'nokogiri'
 require 'open-uri'
+require 'json'
 
-# Path to atom feed with fancybox updates.
-$fancybox_feed = "http://code.google.com/feeds/p/fancybox/downloads/basic"
+# Path to fancybox bower.json.
+$fancybox_bower = "https://raw.github.com/fancyapps/fancyBox/master/bower.json"
 
 Bundler::GemHelper.install_tasks
 
@@ -44,18 +45,16 @@ end
 #
 # Returns the String representing the local version.
 def local_version
-  `grep ' * Version' vendor/assets/javascripts/jquery.fancybox.js | \
+  `grep ' * version:' vendor/assets/javascripts/jquery.fancybox.js | \
   cut -d ' ' -f 4`.chomp
 end
 
 # Get the current version of the remote version of the library. Uses
-# nokogiri and open-uri to grab the atom feed from google code, then
-# parses the version out of the title.
+# the library's bower.json file to parse the version.
 #
 # Returns the String representing the remote version.
 def remote_version
-  doc = Nokogiri::HTML(open($fancybox_feed))
-  doc.css('entry:first title').text.match(/\d\.\d\.\d/)[0]
+  JSON.parse(open($fancybox_bower).read)["version"]
 end
 
 task :travis do
