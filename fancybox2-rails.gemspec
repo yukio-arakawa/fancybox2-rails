@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Mattias Svedhem"]
   s.email       = ["mattias@kyparn.se"]
   s.homepage    = "https://github.com/kyparn/fancybox2-rails"
+  s.licenses    = ["MIT", "Creative Commons by-nc"]
 
   s.summary     = "Use FancyBox 2 with Rails 3.1/4.0"
   s.description = "This gem provides jQuery FancyBox 2 for your Rails 3.1/4.0 application. This gem is based on the gem for Fancybox 1.x by Chris Mytton"
