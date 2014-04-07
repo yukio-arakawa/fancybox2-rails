@@ -1,7 +1,4 @@
-fancybox2-rails
-==============
-[![Build Status](https://travis-ci.org/kyparn/fancybox2-rails.png)](https://travis-ci.org/kyparn/fancybox2-rails)
-
+# fancybox2-rails [![Gem Version](http://img.shields.io/gem/v/fancybox2-rails.svg)](https://rubygems.org/gems/fancybox2-rails) [![Build Status](https://travis-ci.org/kyparn/fancybox2-rails.svg)](https://travis-ci.org/kyparn/fancybox2-rails)
 
 Use [fancybox](http://www.fancyapps.com/fancybox/) with rails 3.1/4 asset pipeline.
 
